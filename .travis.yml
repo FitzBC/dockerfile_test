@@ -13,4 +13,4 @@ before_install:
 
 install:
     - docker-compose up -d
-    - curl https://127.0.0.1:8443/
+    - curl -k https://127.0.0.1:8443/
