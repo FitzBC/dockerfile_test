@@ -1,0 +1,11 @@
+version: '3'
+services:
+    web:
+      build:
+        context: .
+      container_name: openssl
+      ports:
+        - "8443:443"
+      restart: always
+      stdin_open: true
+      tty: true
