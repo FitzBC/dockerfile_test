@@ -14,3 +14,4 @@ before_install:
 
 install:
     - docker-compose up -d
+    - docker ps
