@@ -3,6 +3,7 @@ services:
     web:
       build:
         context: .
+        dockerfile: Dockerfile
       container_name: openssl
       ports:
         - "8443:443"
